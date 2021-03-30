@@ -1,0 +1,61 @@
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Document</title>
+</head>  
+<body>
+  
+  
+  
+    <section>
+      
+    <nav class="navbar navbar-expand-sm fixed-top">
+  <a class="navbar-brand" routerLink="/home"><h2>Gymspiration</h2>
+  <h4 >Fit for Future</h4></a>
+  <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNavAltMarkup" 
+  aria-controls="navbarNavAltMarkup" aria-expanded="false" aria-label="Toggle navigation"><i class="las la-bars la-2x"></i>
+  </button>
+  <div class="collapse navbar-collapse" id="navbarNavAltMarkup">
+    <ul class="navbar-nav ml-sm-auto ">
+      <li class="nav-item ">
+        <a class="nav-link" routerLink="/home" routerLinkActive="active"><i class="las la-home"></i> Home </a>
+      </li>
+      <li class="nav-item">
+        <a class="nav-link" routerLink="/fitness"> <i class="las la-running"></i> Cardio  </a>
+      </li>
+      <li class="nav-item">
+        <a routerLink="yoga" class="nav-link"><i class="las la-spa"></i> Yoga </a>
+      </li>
+        <li class="nav-item">
+        <a class="nav-link" routerLink="/gallery"> <i class="las la-camera"></i> Gallery</a>
+      </li>
+        <li class="nav-item">
+        <a class="nav-link" routerLink="/trainers"> <i class="las la-user-secret"></i> Trainers</a>
+      </li>
+      <li class="nav-item">
+        <a class="nav-link" routerLink="/contactus"> <i class="las la-phone-volume"></i>  ContactUs</a>
+      </li>
+      <li class="nav-item">
+        <a class="nav-link " routerLink="/aboutus"> <i class="las la-book"></i> AboutUs</a>
+      </li>
+        </ul>
+         </div>
+          </nav>
+          <app-header></app-header>
+</section>
+
+
+
+<div>
+  <router-outlet></router-outlet>
+</div>
+</body> 
+<div>
+  <app-footer></app-footer>  
+</div>
+
+</html>

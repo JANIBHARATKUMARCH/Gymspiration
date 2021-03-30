@@ -1,0 +1,372 @@
+* {
+  margin: 0px;
+  padding: 0px;
+  max-width: 100%;
+  min-height: 100%;
+  /* font-family:'angeline Vintage'; */
+}
+
+.backgroundimg 
+{
+  position:relative;
+  background-image: url("../../assets/3.jpg");
+  background-size: cover;
+  background-position: center center;
+  background-repeat: no-repeat;
+  border:3px solid black;
+  box-shadow: 5px 5px 5px 2px rgb(5, 0, 0);
+  min-height: 75vh;
+  max-width: 100%;
+  border-radius: 0px !important;  
+}
+
+
+@font-face {
+  font-family: 'Sunday Snow';
+  src: url(../../fonts/Sunday Snow.ttf);
+  font-style: normal;
+  font-weight: 900;
+}
+
+.row h2  {
+  max-width: 100%;
+  font-family: 'Sunday Snow';  
+}
+
+@font-face {
+  font-family: 'Earth Kid';
+  src: url(../../fonts/EarthKid.ttf);
+  font-style: normal;
+  font-weight: 900;
+}
+#no
+{
+  max-width: 100%;
+  position:absolute;
+  top:18%;
+  left:40%;
+  color:red;
+  font-size:12vh;
+  font-weight: 700;
+  font-family:'Earth Kid'; 
+  text-shadow: 5px 5px 5px black;
+  overflow:hidden;
+  opacity: 0.4;
+  
+}
+#pain
+{
+    max-width: 100%;
+    padding:15px;
+    position:absolute;
+    top:27%;
+    left:40%;
+    color:red;
+    font-size:12vh;
+    font-weight: 700;
+    font-family:'Earth Kid';   
+    text-shadow: 5px 5px 5px black;
+    overflow: hidden;
+    opacity: 0.4;
+}
+#noo
+{
+    max-width: 100%;
+    position:absolute;
+    top:47%;
+    left:40%;
+    color:rgb(252, 251, 251);
+    font-size:12vh;
+    font-weight: 900;
+    font-family:'Earth Kid';   
+    text-shadow: 5px 5px 5px black;
+    overflow: hidden;
+    opacity: 0.4;
+}
+
+#gain
+{
+    max-width: 100%;
+    padding:15px;
+    position:absolute;
+    top:56%;
+    left:40%;
+    color:rgb(255, 252, 252);
+    font-size:12vh;
+    font-weight: 900;
+    font-family:'Earth Kid';   
+    text-shadow: 5px 5px 5px black;
+    overflow: hidden;
+    opacity: 0.4;
+}
+#one
+{
+  min-width:95px;
+  min-height: 95px;
+   position: absolute;
+   float:left;
+   top:60%;
+   left:17%; 
+    border:3px solid rgb(248, 221, 14);
+    box-shadow: 5px 5px 5px 2px black;
+    font-weight: 900;    
+    
+    
+}
+#two 
+{
+  min-width:95px;
+  min-height:95px;
+  position: absolute;
+  float:right;
+  top:60%;
+  right:23%;
+  border:3px solid rgb(248, 221, 14);
+  box-shadow: 5px 5px 5px 2px black;
+  font-weight: 900;
+  overflow:hidden;
+}
+#men
+{
+  
+   position: absolute;   
+   top:70%;
+   left:19.5%;
+  font-size: 4vh;
+  color:rgb(248, 221, 14);
+  font-weight: 900;
+  overflow:hidden;  
+  text-align: center;
+}
+#women
+{
+  position: absolute; 
+  top:70%;
+  right:24%;
+   font-size: 4vh;
+   color:rgb(248, 221, 14);
+   font-weight: 900;
+   overflow:hidden;
+   text-align: center;
+}
+a
+{
+  text-decoration: none;
+  font-size:3vh;
+  color:rgb(248, 221, 14)
+}
+a:hover
+{
+  color:rgb(247, 204, 17);
+  text-decoration: none;
+  font-size:3vh;  
+}
+.btn
+{
+  margin:5px; 
+  color:rgb(247, 204, 17);
+  position:relative;
+  float:right;
+  top:140px;   
+  padding:2px;
+  font-size: 2.5vh;
+  font-weight: 600;  
+}
+.btn:hover
+{
+  font-size: 3.5vh;
+  background-color: rgb(250, 74, 5);
+  color:rgb(247, 247, 247);
+  font-weight: 500;
+}
+
+#button1
+{
+  background-image: url("../../assets/menanimation2.gif");
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center;
+  width:95px;
+  height:95px;
+  position: relative;
+  top:140px;
+  left:150px; 
+   border:3px solid rgb(248, 221, 14);
+   box-shadow: 5px 5px 5px 2px black;
+   font-weight: 700;
+   font-size: 2vh;
+   overflow:hidden;
+  
+}
+
+#button2
+{
+  background-image: url("../../assets/womenanimated5.gif");
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center;
+  width: 95px;
+  height: 95px;
+  position: relative;
+  top:150px;
+  left:60%;
+   border:3px solid rgb(248, 221, 14);
+   box-shadow: 5px 5px 5px 2px black;
+   font-weight: 700;
+   font-size: 2.5vh;
+   overflow:hidden;
+}
+#button1 a:hover
+{
+  color:whitesmoke;
+  font-size: 3.5vh;
+  font-weight: 900;
+}
+ #button2 a:hover
+{
+  color:whitesmoke;
+  font-size: 3.5vh;
+  font-weight: 900;
+}
+
+
+
+@media (max-width:900px)
+{
+  .backgroundimg {    
+    min-height: 45vh;
+    max-width: 100%;
+    border-radius: 0px !important;
+  }
+/* #one 
+{
+  min-width: 75px;
+  min-height: 75px;  
+  position: absolute;
+  float: left;
+  top: 50%;
+  left:2%; 
+}
+#two
+{
+  min-width:75px;
+  min-height:75px;
+  position: absolute;
+  float:right;
+  top:50%;
+  right:5%;
+}
+#men
+{
+   position: absolute;
+   top:57%;
+   left:7%;
+   font-size: 3vh;
+}
+#women
+{
+    position: absolute;
+    top:58%;
+    right:8%;
+    font-size: 3vh;
+   
+} */
+#button1 
+{
+ 
+  width: 60px;
+  height: 60px;
+  position: relative;
+  float:left;
+  top: 55px;
+  left: 15%;
+ }
+
+#button2 {
+
+  width: 60px;
+  height: 60px;
+  position: relative;
+  float:right;
+  top: 55px; 
+  
+  
+  
+}
+#button1 a:hover {
+  color: whitesmoke;
+  font-size: 2vh;
+  font-weight: 900;
+}
+
+#button2 a:hover {
+  color: whitesmoke;
+  font-size: 2vh;
+  font-weight: 900;
+}
+
+.btn {
+  margin: 5px 35px;
+  margin-bottom:2px;
+  color: rgb(247, 204, 17);
+  position: relative;  
+  top: 60px;  
+  overflow: hidden;
+  font-size: 1vh;
+  }
+
+.btn:hover {  
+  background-color: rgb(250, 74, 5);  
+}
+#no {
+  
+  position: absolute;
+  top: 28%;
+  left: 40%;
+  color: red;
+  font-size: 8vh;
+
+}
+
+#pain { 
+  padding: 15px;
+  position: absolute;
+  top: 35%;
+  left: 40%;  
+  font-size: 8vh;
+  
+}
+
+#noo {
+  
+  position: absolute;
+  top: 57%;
+  left: 40%;  
+  font-size: 8vh;
+
+}
+
+#gain {
+ 
+  position: absolute;
+  top: 64%;
+  left: 40%;  
+  font-size: 8vh;
+}
+
+#one {
+  min-width: 95px;
+  min-height: 95px;
+  position: absolute;
+  float: left;
+  top: 60%;
+  left: 17%;
+  border: 3px solid rgb(248, 221, 14);
+  box-shadow: 5px 5px 5px 2px black;
+  font-weight: 900;
+
+
+}
+
+
+}

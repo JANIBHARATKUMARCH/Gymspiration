@@ -1,0 +1,117 @@
+*
+{
+  margin:0;
+  padding:0;
+  width: 100%;
+
+}
+body
+{
+   background-image:url("../../assets/boxing 3.jpg");
+   background-position: center center;
+   background-size: cover;
+   background-repeat: no-repeat;
+   width: 100%;
+}
+span h2
+{
+  font-size:7vh;
+  padding:5px;
+  text-decoration: underline;
+
+}
+img
+{
+  max-width:100%;
+  position:absolute;
+  display: block;  
+  width:250px;
+  height: 250px;
+  overflow:hidden;
+}
+p
+{
+width:100%;
+margin: 20px;
+padding: 15px;
+background-color: rgb(86, 6, 88);
+text-align: justify;
+border: 5px solid rgb(202, 125, 238);
+border-top-right-radius: 30px;
+border-bottom-right-radius: 30px;
+color: whitesmoke;
+font-size:3vh;
+overflow: hidden;
+}
+#pushup,
+#pullup,
+#dip,
+#skip,
+#run,
+#walk
+{
+  border:5px solid #e056fd;
+  position:absolute;
+  top:15%;
+  left:15%; 
+  
+}
+#skip
+{
+  position: absolute;
+  top:25%;
+}
+#walk
+{
+  position:absolute;
+  top:25%;
+}
+#run
+{
+  position: absolute;
+  top:22%;
+}
+
+
+@media (max-width:900px) {
+span h2
+{
+  font-size:7vh;
+  padding:10px;
+  text-decoration: underline;
+}
+p {
+  
+  margin: 5px;
+  padding: 10px;  
+  font-size: 3vh;
+  margin-top:90%;
+  overflow:hidden;
+  
+}
+img {
+  
+  position: absolute;
+  display: block;
+  width: 250px;
+  height: 250px;
+ 
+}
+
+#pushup,
+#skip
+#dip,
+#pullup,
+#run,
+#walk
+{
+  border: 5px solid #e056fd;
+   position:absolute;     
+   margin-top:10%; 
+}
+#dip,#skip
+{
+  position: absolute;
+  margin-top: 10%;
+}
+}

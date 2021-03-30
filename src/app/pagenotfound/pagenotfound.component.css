@@ -1,0 +1,79 @@
+*
+{
+  margin:0;
+  padding:0;
+  max-width: 100%;
+}
+.container-fluid
+{
+ width: 100%; 
+ padding: 10px;
+ text-align: center;
+ background-image: url("../../assets/5.jpg");
+ background-repeat: no-repeat;
+ background-position: center center;
+ background-size: cover;
+ overflow: hidden;
+ 
+
+}
+h1
+{
+ max-width: 100%;
+ /* color: rgb(72, 173, 199); */
+ font-size: 30.5vh;
+ font-weight: 900;
+ font-family: 'Base 02';
+ letter-spacing: 35px;
+ margin-left:50px; 
+ background:linear-gradient(to top, #720505, #3fc783, #ffeb07, #c88cf8);
+ -webkit-text-fill-color:transparent;
+ -webkit-background-clip: text;
+ text-shadow: 0 0 10px rgba(245, 242, 245, 0.5);
+}
+h2
+{
+  width:100%;
+ color:rgb(48, 42, 39);
+ font-family: Colonna MT;
+ font-size:25vh;
+ background:linear-gradient(to top, #720505,#c88cf8);
+ -webkit-text-fill-color:transparent;
+ -webkit-background-clip: text;
+ text-shadow: 0 0 10px rgba(34, 182, 182, 0.5);
+ 
+}
+h3
+{
+  width: 100%;
+  padding:10px;
+ color:rgb(255, 225, 0);
+ background:linear-gradient(to top, #720505, #3fc783, #ffeb07, #c88cf8);
+ -webkit-text-fill-color:transparent;
+ -webkit-background-clip: text;
+ text-shadow: 0 0 10px rgba(34, 182, 182, 0.5);
+}
+p
+{
+  width: 100%;
+  padding: 5px;
+ text-align: center;
+ line-height: 1;
+ color:rgb(92, 91, 91);
+}
+button a
+{
+ text-decoration:none;
+ color:whitesmoke; 
+
+
+
+}
+button
+{
+ border-radius: 25px; 
+  background:linear-gradient(to top, #720505, #3fc783, #ffeb07, #c88cf8);
+  -webkit-text-fill-color:transparent;
+  -webkit-background-clip: text;
+  text-shadow: 0 0 10px rgba(34, 182, 182, 0.5);
+}

@@ -1,0 +1,52 @@
+<!-- <form class="form-inline" action="/action_page.php">
+  <label for="email">Email address:</label>
+  <input type="email" class="form-control" placeholder="Enter email" id="email">
+  <label for="pwd">Password:</label>
+  <input type="password" class="form-control" placeholder="Enter password" id="pwd">
+  <div class="form-check">
+    <label class="form-check-label">
+      <input class="form-check-input" type="checkbox"> Remember me
+    </label>
+  </div>
+  <button type="submit" class="btn btn-primary">Submit</button>
+</form>-->
+
+<!-- Button to Open the Modal -->
+
+
+<!-- The Modal -->
+<div class="modal fade" id="login">
+  <div class="modal-dialog modal-dialog-centered">
+    <div class="modal-content">
+
+      <!-- Modal Header -->
+      <div class="modal-header">
+        <h3 class="modal-title">  Sign-In </h3>
+        <button type="button" class="close" data-dismiss="modal">&times;</button>
+      </div>
+
+      <!-- Modal body -->
+      <div class="modal-body">
+       <form #ref="ngForm" (ngSubmit)="LoginData(ref.value)">
+        <div class="form-group">
+         <label for="un">Username</label>
+         <input type="text" name="username" id="un" class="form-control" ngModel>
+        </div>
+        <div class="form-group">
+         <label for="pwd">Password</label>
+         <input type="text" name="password" id="pwd" class="form-control" ngModel>
+        </div>
+         <div class="form-check">
+       <label class="form-check-label">
+      <input class="form-check-input" type="checkbox"> Remember me
+    </label>
+  </div>
+  <div class="text-center">
+   <button type="submit" class="btn mr-3">Submit</button>   
+  <a id="link" class="mr-5" routerLink="/Registration" data-toggle="modal" data-target="#signup"> Haven't Account Signup</a> 
+  </div>
+        </form>
+      </div>  
+    </div>
+  </div>
+</div>
