@@ -2,6 +2,7 @@
 {
  margin:0px;
  padding:0px;
+ box-sizing:border-box;
 
 }
 table
@@ -16,18 +17,18 @@ th
  color:whitesmoke;
  font-weight: 600;
  background: #1b0525;
-
 }
-tr{
+tr
+{
  color:#c880e4;
- 
-
 }
+
 td
 {
  background: rgb(67, 2, 80);
 
 }
+
 h3
 {
  text-align: center;
@@ -37,9 +38,18 @@ h3
  vertical-align: top;
  text-shadow: 5px -2px 3px black;
 }
+
 h3 img
 {
  margin:0px 5px;
  padding:5px;
  align-items: center;
+}
+@media (max-width:750px)
+{
+ table, td button, th
+ {
+  font-size: 2vh;
+ }
+
 }
