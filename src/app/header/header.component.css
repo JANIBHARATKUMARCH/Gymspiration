@@ -1,10 +1,8 @@
-* {
-  margin: 0px;
-  padding: 0px;
-  max-width: 100%;
-  min-height: 100%;
-  /* font-family:'angeline Vintage'; */
-}
+* {  
+  
+  box-sizing: border-box;
+
+  }
 
 .backgroundimg 
 {
@@ -127,12 +125,11 @@
   overflow:hidden;
 }
 #men
-{
-  
+{ 
    position: absolute;   
-   top:70%;
-   left:19.5%;
-  font-size: 4vh;
+   top:75%;
+   left:30%;
+  font-size: 5vh;
   color:rgb(248, 221, 14);
   font-weight: 900;
   overflow:hidden;  
@@ -161,24 +158,33 @@ a:hover
   text-decoration: none;
   font-size:3vh;  
 }
-.btn
+#btn1
 {
   margin:5px; 
   color:rgb(247, 204, 17);
-  position:relative;
+  position:absolute;
   float:right;
-  top:140px;   
+  top: 300px; 
+  right:0px;  
   padding:2px;
   font-size: 2.5vh;
   font-weight: 600;  
 }
-.btn:hover
-{
-  font-size: 3.5vh;
-  background-color: rgb(250, 74, 5);
-  color:rgb(247, 247, 247);
-  font-weight: 500;
+#btn2 {
+  margin: 5px;
+  color: rgb(247, 204, 17);
+  position: absolute;
+  float: right;
+  top: 300px;
+  right:120px;
+  padding: 2px;
+  font-size: 2.5vh;
+  font-weight: 600;
 }
+.btn:hover {
+  background-color: rgb(250, 74, 5);
+}
+
 
 #button1
 {
@@ -188,9 +194,9 @@ a:hover
   background-position: center;
   width:95px;
   height:95px;
-  position: relative;
-  top:140px;
-  left:150px; 
+  position: absolute;
+  top:185px;
+  left:180px; 
    border:3px solid rgb(248, 221, 14);
    box-shadow: 5px 5px 5px 2px black;
    font-weight: 700;
@@ -204,12 +210,13 @@ a:hover
   background-image: url("../../assets/womenanimated5.gif");
   background-repeat: no-repeat;
   background-size: cover;
-  background-position: center;
+  background-position: center center;
   width: 95px;
   height: 95px;
-  position: relative;
-  top:150px;
-  left:60%;
+  position: absolute;
+  float: right;
+  top:185px;
+  right:22%;
    border:3px solid rgb(248, 221, 14);
    box-shadow: 5px 5px 5px 2px black;
    font-weight: 700;
@@ -237,6 +244,26 @@ a:hover
     min-height: 45vh;
     max-width: 100%;
     border-radius: 0px !important;
+  }
+
+  #btn1 {    
+    position: absolute;
+    float: right;
+    top: 150px;
+    right: 40px;    
+    font-size: 1.5vh;
+    font-weight: 600;
+  }
+
+  #btn2 {
+       
+    color: rgb(247, 204, 17);
+    position: absolute;
+    float: right;
+    top: 150px;
+    left: 40px;   
+    font-size: 1.5vh;
+    font-weight: 600;
   }
 /* #one 
 {
@@ -276,9 +303,9 @@ a:hover
  
   width: 60px;
   height: 60px;
-  position: relative;
+  position: absolute;
   float:left;
-  top: 55px;
+  top: 90px;
   left: 15%;
  }
 
@@ -286,9 +313,11 @@ a:hover
 
   width: 60px;
   height: 60px;
-  position: relative;
+  position: absolute;
   float:right;
-  top: 55px; 
+  top: 90px; 
+  right:70px;
+  text-align: center;
   
   
   
@@ -305,12 +334,12 @@ a:hover
   font-weight: 900;
 }
 
-.btn {
-  margin: 5px 35px;
+.btn1 {
+  margin: 5px 25px;
   margin-bottom:2px;
   color: rgb(247, 204, 17);
-  position: relative;  
-  top: 60px;  
+  position: absolute;   
+  top:100px;  
   overflow: hidden;
   font-size: 1vh;
   }

@@ -4,10 +4,11 @@
 }
 .container-fluid 
 {
-  background-image: url("../../assets/boxing 3.jpg");
+  /* background-image: url("../../assets/boxing 3.jpg");
   background-position: center center;
   background-size: cover;
-  background-repeat: no-repeat;
+  background-repeat: no-repeat; */
+  background-color: rgba(65, 65, 64, 0.8);
   width: 100%;
 }
 
@@ -92,12 +93,12 @@ h2 {
   border-bottom-right-radius: 25px;
 }
 
-@media (max-width:700px) {
+@media (max-width:900px) {
   .display-3 {
     padding: 5px;
     margin: 5px 3px 15px 3px;
     word-spacing: 5px;
-    font-size: 6vh;
+    font-size: 5vh;
     display: inline-block;
   }
 

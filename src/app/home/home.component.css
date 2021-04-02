@@ -1,8 +1,13 @@
-.container-fluid
+/* .container-fluid
 {
   background-image:url("../../assets/boxing 3.jpg");
   background-position: center center;
   background-size: cover;
   background-repeat: no-repeat;
   width: 100%;  
+} */
+body
+{
+  
+  background-color: rgba(65, 65, 64, 0.8);
 }

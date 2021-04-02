@@ -12,6 +12,7 @@ import { HomeComponent } from './home/home.component';
 import { LatsComponent } from './lats/lats.component';
 import { LoginComponent } from './login/login.component';
 import { PagenotfoundComponent } from './pagenotfound/pagenotfound.component';
+import { PaysessionComponent } from './paysession/paysession.component';
 import { RegistrationComponent } from './registration/registration.component';
 import { ShoulderComponent } from './shoulder/shoulder.component';
 import { TrainersComponent } from './trainers/trainers.component';
@@ -35,6 +36,7 @@ const routes: Routes = [
   {path:'lats', component:LatsComponent},
   {path:'frontsquat',component:FrontSquatComponent},
   {path:'backsquat', component:BacksquadComponent},
+  {path:'paymentsession', component:PaysessionComponent},
   {path:'', redirectTo:'home', pathMatch:'full'},
   {path:"**",component:PagenotfoundComponent},
 ];
