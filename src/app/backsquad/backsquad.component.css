@@ -4,19 +4,14 @@
 }
 
 
-.display-3 {
-
+.display-3 
+{
   padding: 5px;
   position: relative;
   top: 10px;
   display: inline-block;
-  margin: 10px;
-  border: 2px solid black;
-  background-repeat: no-repeat;
-  border-bottom-right-radius: 300px;
-  border-top-left-radius: 300px;
-  text-shadow: 4px 4px 4px #0a0a0a;
-  box-shadow: 2px 3px 5px 4px #050505;
+  margin: 10px;  
+  text-shadow: 7px 7px 9px #000000;  
   color: rgb(253, 188, 9);
   font-size: 10vh;
 
