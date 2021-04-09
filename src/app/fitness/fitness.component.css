@@ -2,41 +2,65 @@
 {
   margin:0;
   padding:0;
-  width: 100%;
+  max-width: 100%;  
+ 
 
 }
 body
 {
-
-  background-color: rgba(65, 65, 64, 0.8);
-   /* background-image:url("../../assets/boxing 3.jpg");
-   background-position: center center;
-   background-size: cover;
-   background-repeat: no-repeat;
-   */
-   width: 100%; 
+  background-color: grey;
+  /* background-color: rgba(65, 65, 64, 0.8); */
+  width: 100%; 
 }
-span h2
+.row
 {
-  font-size:7vh;
-  padding:5px;
-  text-decoration: underline;
+  margin:15px;
+  overflow: hidden;
+}
+.col-sm-6
+{
+  
+  width:100%;
+  height:100%;
+  
+}
+
+@font-face {
+  font-family: 'Alien Resurrection';
+  src: url(../../fonts/Alien Resurrection.ttf);
+  font-style: normal;
+  font-weight: 400;
+}
+
+.col-sm-6 h2
+{
+  position: relative;
+  top:5px;
+  width: 100%;    
+   text-shadow: 3px 3px 2px #000000;   
+   color: rgb(253, 188, 9);
+   font-size: 6vh;
+  font-family: 'Alien Resurrection';
 
 }
-img
+.col-sm-6 img
 {
   max-width:100%;
-  position:absolute;
-  display: block;  
   width:250px;
   height: 250px;
-  overflow:hidden;
+  margin:20px;
+  box-shadow: 2px 2px 3px 2px rgb(0, 0, 0);
+
 }
-p
+.col-sm-6 img:hover
+{
+  transform: translateX(-15px);
+}
+.col-sm-6 p
 {
 width:100%;
-margin: 20px;
-padding: 15px;
+margin: 40px 0px 20px 0px;
+padding: 10px;
 background-color: rgb(86, 6, 88);
 text-align: justify;
 border: 5px solid rgb(202, 125, 238);
@@ -45,76 +69,81 @@ border-bottom-right-radius: 30px;
 color: whitesmoke;
 font-size:3vh;
 overflow: hidden;
+text-indent: 30%;
+box-shadow: 2px 3px 3px 3px rgb(0, 0, 0);
+}
+.col-sm-6 p:hover
+{
+  transform: translateY(-15px);
+}
+.row
+{
+  border:2px solid black;
+  box-shadow: 3px 3px 2px 2px rgb(28, 3, 29);
+ 
 }
 #pushup,
 #pullup,
 #dip,
-#skip,
 #run,
 #walk
 {
+  border:5px solid rgb(202, 125, 238);
+  margin-top:75px;
+ 
+}
+#skip,#sprint
+{  
   border:5px solid #e056fd;
-  position:absolute;
-  top:15%;
-  left:15%; 
-  
-}
-#skip
-{
-  position: absolute;
-  top:25%;
-}
-#walk
-{
-  position:absolute;
-  top:25%;
-}
-#run
-{
-  position: absolute;
-  top:22%;
+  margin-top:100px;
+  margin-bottom:100px;  
 }
 
 
 @media (max-width:900px) {
-span h2
-{
-  font-size:7vh;
-  padding:10px;
-  text-decoration: underline;
-}
-p {
-  
-  margin: 5px;
-  padding: 10px;  
-  font-size: 3vh;
-  margin-top:90%;
-  overflow:hidden;
-  
-}
-img {
-  
-  position: absolute;
-  display: block;
-  width: 250px;
-  height: 250px;
- 
+
+.col-sm-6 h2 {
+  position: relative;
+  top: 10px;  
+  font-size: 5vh;
+  margin-top:0px;
+
 }
 
+.col-sm-6 p {
+  
+  padding: 6px;  
+  font-size: 2.5vh;  
+  margin: 20px 5px;
+}
+.col-sm-6 img 
+{    
+  width: 200px;
+  height: 200px; 
+}
 #pushup,
-#skip
-#dip,
 #pullup,
+#dip,
 #run,
-#walk
-{
+#walk {
+  position: relative;
+  top: 0px;
+  left:40px;
+  margin-top:20px;
+  
+}
+
+#skip,
+#sprint {
+
   border: 5px solid #e056fd;
-   position:absolute;     
-   margin-top:10%; 
+  position: relative; 
+  top:-80px;
+  left:30px;
+  margin-bottom:-15px
+  
 }
-#dip,#skip
-{
-  position: absolute;
-  margin-top: 10%;
+
 }
-}
+
+

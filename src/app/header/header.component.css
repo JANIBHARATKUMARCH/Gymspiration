@@ -181,8 +181,9 @@ a:hover
   font-size: 2.5vh;
   font-weight: 600;
 }
-.btn:hover {
+#btn1:hover {
   background-color: rgb(250, 74, 5);
+  font-size:2vh;
 }
 
 
@@ -250,9 +251,14 @@ a:hover
     position: absolute;
     float: right;
     top: 150px;
-    right: 40px;    
-    font-size: 1.5vh;
+    right: 55px;    
+    font-size: 2vh;
     font-weight: 600;
+  }
+  #btn1:hover
+  {
+    background-color: rgb(250, 74, 5);
+    font-size: 2vh;
   }
 
   #btn2 {
@@ -261,10 +267,16 @@ a:hover
     position: absolute;
     float: right;
     top: 150px;
-    left: 40px;   
-    font-size: 1.5vh;
+    left: 50px;   
+    font-size: 2vh;
     font-weight: 600;
   }
+
+  #btn2:hover {
+    background-color: rgb(250, 74, 5);
+    font-size: 2vh;
+  }
+
 /* #one 
 {
   min-width: 75px;
@@ -302,11 +314,12 @@ a:hover
 {
  
   width: 60px;
-  height: 60px;
+  height:60px;
   position: absolute;
   float:left;
   top: 90px;
   left: 15%;
+  font-size: 3vh;
  }
 
 #button2 {
@@ -318,35 +331,33 @@ a:hover
   top: 90px; 
   right:70px;
   text-align: center;
-  
-  
+  font-size: 3vh; 
   
 }
 #button1 a:hover {
   color: whitesmoke;
-  font-size: 2vh;
+  font-size: 2.5vh;
   font-weight: 900;
+  text-align: center;
 }
 
 #button2 a:hover {
   color: whitesmoke;
-  font-size: 2vh;
+  font-size: 2.5vh;
   font-weight: 900;
+  text-align: center;
 }
 
-.btn1 {
-  margin: 5px 25px;
-  margin-bottom:2px;
-  color: rgb(247, 204, 17);
-  position: absolute;   
-  top:100px;  
-  overflow: hidden;
-  font-size: 1vh;
-  }
-
-.btn:hover {  
-  background-color: rgb(250, 74, 5);  
+a 
+{
+  
+  font-size: 2vh;
+  text-align: center;  
 }
+
+
+
+
 #no {
   
   position: absolute;
@@ -366,7 +377,8 @@ a:hover
   
 }
 
-#noo {
+#noo 
+{
   
   position: absolute;
   top: 57%;
@@ -375,7 +387,8 @@ a:hover
 
 }
 
-#gain {
+#gain
+ {
  
   position: absolute;
   top: 64%;
@@ -383,7 +396,8 @@ a:hover
   font-size: 8vh;
 }
 
-#one {
+#one 
+{
   min-width: 95px;
   min-height: 95px;
   position: absolute;
@@ -393,8 +407,6 @@ a:hover
   border: 3px solid rgb(248, 221, 14);
   box-shadow: 5px 5px 5px 2px black;
   font-weight: 900;
-
-
 }
 
 

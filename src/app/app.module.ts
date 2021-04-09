@@ -23,6 +23,7 @@ import { FrontSquatComponent } from './front-squat/front-squat.component';
 import { BacksquadComponent } from './backsquad/backsquad.component';
 import { YogaComponent } from './yoga/yoga.component';
 import { PaysessionComponent } from './paysession/paysession.component';
+import { AbsComponent } from './abs/abs.component';
 
 @NgModule({
   declarations: [
@@ -46,7 +47,8 @@ import { PaysessionComponent } from './paysession/paysession.component';
     FrontSquatComponent,
     BacksquadComponent,
     YogaComponent,
-    PaysessionComponent
+    PaysessionComponent,
+    AbsComponent
   ],
   imports: [
     BrowserModule,

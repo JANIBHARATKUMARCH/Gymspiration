@@ -1,6 +1,7 @@
 import { NgModule } from '@angular/core';
 import { Routes, RouterModule } from '@angular/router';
 import { AboutUsComponent } from './about-us/about-us.component';
+import { AbsComponent } from './abs/abs.component';
 import { BacksquadComponent } from './backsquad/backsquad.component';
 import { BicepComponent } from './bicep/bicep.component';
 import { ChestComponent } from './chest/chest.component';
@@ -21,6 +22,7 @@ import { YogaComponent } from './yoga/yoga.component';
 
 const routes: Routes = [
   {path:'home',component:HomeComponent},
+  {path:'abs', component:AbsComponent},
   {path:'fitness',component:FitnessComponent},
   {path:'gallery', component:GalleryComponent},
   {path:'yoga', component:YogaComponent},

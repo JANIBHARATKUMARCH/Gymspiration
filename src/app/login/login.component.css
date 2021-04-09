@@ -1,14 +1,14 @@
 .modal-content
 {
- background-image:linear-gradient(to top, green, red, orange, rgba(189, 162, 43, 0.993));
- border-radius: 20px;
+background-image:linear-gradient(to top, rgb(245, 231, 110), rgb(255, 5, 5), rgb(56, 14, 14));
+border-radius: 20px;
 
 }
 
 .modal-title
 {
-   transform: translateX(-2%);
-   background:linear-gradient(to right, #24f0e6, #e2192a, #45ec2e);
+  transform: translateX(-2%);
+  background:linear-gradient(to top, #baebe8, #dd65f5);
    -webkit-text-fill-color:transparent;
    -webkit-background-clip: text;
    /* text-shadow: 0px 0px 5px rgba(0,0,0,.5); */
@@ -18,16 +18,14 @@
 form {
   margin: 2px;
   padding: 2px;
+  
 }
 
 .modal-body
 {
- background-image: url('../../assets/8.jpg');
- background-repeat: no-repeat;
- background-size: cover; 
- background-position: center center;
+ background-color:rgb(34, 33, 31);
  margin:2px;
- padding:0px;
+ padding:2px;
  border-bottom-left-radius: 20px;
  border-bottom-right-radius: 20px;
  margin-bottom: 5px;

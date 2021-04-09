@@ -1,47 +1,51 @@
 *
 {
-  margin:0px;
-  padding:0px;
-
+  box-sizing: border-box;
 }
 
 .modal-content {
   /* background-color:rgb(248, 189, 38); */
-  background-image:linear-gradient(to top, green,red,orange, rgba(189, 162, 43, 0.993));
+  background-image:linear-gradient(to top, rgb(245, 231, 110),rgb(255, 5, 5),rgb(56, 14, 14));
   border-radius: 20px;
 }
 
 .modal-title {
      transform: translateX(-2%);
-     background:linear-gradient(to right, #24f0e6, #e2192a, #45ec2e);
+     background:linear-gradient(to top, #baebe8, #dd65f5);
      -webkit-text-fill-color:transparent;
      -webkit-background-clip: text;
      /* text-shadow: 0px 0px 5px rgba(0,0,0,.5); */
-     text-shadow: 0px 0px 6px rgb(242, 192, 245);
+     text-shadow: 1px 1px 6px rgb(242, 192, 245);
 
 }
 form{
  margin:2px;
  padding:2px; 
 }
+.row, .col-sm-6
+{
+  line-height: 0px;
+  
+}
 
 .modal-body {
-  background-image: url('../../assets/9.jpg');
-  background-repeat: no-repeat;
-  background-size: cover;
-  background-position: center center;
+  background-color:rgb(34, 33, 31);
   margin:2px;
   padding:0px;
   border-bottom-left-radius: 20px;
   border-bottom-right-radius: 20px;
   margin-bottom: 5px;
+  line-height: 0px;
+  
 }
 
 label {
   color: rgb(240, 152, 240);
   font-style: normal;
-  margin: 10px;
+  margin: 3px;
   padding: 10px;
+
+  
 }
 
 .btn {
@@ -49,6 +53,11 @@ label {
   color: whitesmoke;
   border-radius: 20px;
   margin: 10px;
+}
+#link
+{
+  
+  line-height: 20px;
 }
 
 a{

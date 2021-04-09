@@ -1,14 +1,19 @@
 body
 {
-
- background-color: rgba(65, 65, 64, 0.8);
+  background-color: grey;
+ /* background-color: rgba(65, 65, 64, 0.8); */
  width: 100%;
  /* background-image: radial-gradient(circle farthest-corner at 10% 20%, rgb(255, 255, 255) 0.1%, rgba(178, 0, 248, 0.63) 90.1%); */
 }
-h2
+h2, p
 {
+  
   text-shadow: 3px 3px 3px black; 
  
+}
+#contact-form
+{
+  color:rgb(211, 162, 211)
 }
 i
 {
