@@ -84,6 +84,7 @@ h2 {
     word-spacing: 5px;
     font-size: 5vh;
     display: inline-block;
+    overflow: hidden;
   }
 
   .card-title {
