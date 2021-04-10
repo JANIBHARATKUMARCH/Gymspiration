@@ -77,12 +77,12 @@ h2 {
   border-bottom-right-radius: 25px;
 }
 
-@media (max-width:900px) {
+@media (max-width:700px) {
   .display-3 {
     padding: 5px;
     margin: 10px;
-    word-spacing: 5px;
-    font-size: 5vh;
+    word-spacing: 4px;
+    font-size: 4.5vh;
     display: inline-block;
     overflow: hidden;
   }

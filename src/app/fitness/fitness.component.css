@@ -103,10 +103,12 @@ box-shadow: 2px 3px 3px 3px rgb(0, 0, 0);
 @media (max-width:900px) {
 
 .col-sm-6 h2 {
+  margin:0px;
+  padding:0px;
   position: relative;
   top: 10px;  
-  font-size: 5vh;
-  margin-top:0px;
+  font-size: 4vh;
+  
 
 }
 
