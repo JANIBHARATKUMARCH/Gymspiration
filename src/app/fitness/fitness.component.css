@@ -3,6 +3,7 @@
   margin:0;
   padding:0;
   max-width: 100%;  
+  box-sizing: border-box;
  
 
 }
@@ -17,7 +18,7 @@ body
   margin:15px;
   overflow: hidden;
 }
-.col-sm-6
+.col-md-6
 {
   
   width:100%;
@@ -32,7 +33,7 @@ body
   font-weight: 400;
 }
 
-.col-sm-6 h2
+.col-md-6 h2
 {
   position: relative;
   top:5px;
@@ -43,7 +44,7 @@ body
   font-family: 'Alien Resurrection';
 
 }
-.col-sm-6 img
+.col-md-6 img
 {
   max-width:100%;
   width:250px;
@@ -52,11 +53,11 @@ body
   box-shadow: 2px 2px 3px 2px rgb(0, 0, 0);
 
 }
-.col-sm-6 img:hover
+.col-md-6 img:hover
 {
   transform: translateX(-15px);
 }
-.col-sm-6 p
+.col-md-6 p
 {
 width:100%;
 margin: 40px 0px 20px 0px;
@@ -72,7 +73,7 @@ overflow: hidden;
 text-indent: 30%;
 box-shadow: 2px 3px 3px 3px rgb(0, 0, 0);
 }
-.col-sm-6 p:hover
+.col-md-6 p:hover
 {
   transform: translateY(-15px);
 }
@@ -100,9 +101,9 @@ box-shadow: 2px 3px 3px 3px rgb(0, 0, 0);
 }
 
 
-@media (max-width:900px) {
+@media (max-width:700px) {
 
-.col-sm-6 h2 {
+.col-md-6 h2 {
   margin:0px;
   padding:0px;
   position: relative;
@@ -112,13 +113,13 @@ box-shadow: 2px 3px 3px 3px rgb(0, 0, 0);
 
 }
 
-.col-sm-6 p {
+.col-md-6 p {
   
   padding: 6px;  
   font-size: 2.5vh;  
   margin: 20px 5px;
 }
-.col-sm-6 img 
+.col-md-6 img 
 {    
   width: 200px;
   height: 200px; 

@@ -3,7 +3,9 @@
   margin:0px;
   padding:0px;  
   box-sizing: border-box;
+  max-width: 100%;
 }
+
 body
 {
   background-color: rgba(0, 0, 0, 0.8);
@@ -88,6 +90,12 @@ body
 
  @media (max-width:700px)
  {
+ 
+
+   nav
+   {
+     max-width:100%;
+   };
   .navbar
   {
    background-color: rgba(27, 27, 27, 0.8);
@@ -108,7 +116,7 @@ body
     position: relative;
     top: 12px;
     margin-left: 20px;
-    font-size: 4vh;    
+    font-size: 3.5vh;    
   }
    .navbar-brand h2 
    {     

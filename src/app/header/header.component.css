@@ -1,18 +1,18 @@
 * {  
-  
+  margin: 0px;
+  padding:0px;  
   box-sizing: border-box;
 
   }
 
 .backgroundimg 
-{
-  position:relative;
+{  
   background-image: url("../../assets/3.jpg");
   background-size: cover;
   background-position: center center;
   background-repeat: no-repeat;
   border:3px solid black;
-  box-shadow: 5px 5px 5px 2px rgb(5, 0, 0);
+  box-shadow: 0px 10px 2px 2px rgb(5, 0, 0);
   min-height: 75vh;
   max-width: 100%;
   border-radius: 0px !important;  
@@ -96,33 +96,6 @@
     text-shadow: 5px 5px 5px black;
     overflow: hidden;
     opacity: 0.4;
-}
-#one
-{
-  min-width:95px;
-  min-height: 95px;
-   position: absolute;
-   float:left;
-   top:60%;
-   left:17%; 
-    border:3px solid rgb(248, 221, 14);
-    box-shadow: 5px 5px 5px 2px black;
-    font-weight: 900;    
-    
-    
-}
-#two 
-{
-  min-width:95px;
-  min-height:95px;
-  position: absolute;
-  float:right;
-  top:60%;
-  right:23%;
-  border:3px solid rgb(248, 221, 14);
-  box-shadow: 5px 5px 5px 2px black;
-  font-weight: 900;
-  overflow:hidden;
 }
 #men
 { 
@@ -239,13 +212,22 @@ a:hover
 
 
 
-@media (max-width:900px)
+@media (max-width:700px)
 {
+  *
+  {
+    box-sizing: border-box;
+    margin:0px;
+    padding:0px;
+  }
   .backgroundimg {    
     min-height: 45vh;
     max-width: 100%;
-    border-radius: 0px !important;
+    margin:0px;
+    padding:0px;  
+    
   }
+
 
   #btn1 {    
     position: absolute;
@@ -361,17 +343,16 @@ a
 #no {
   
   position: absolute;
-  top: 28%;
+  top:10%;
   left: 40%;
   color: red;
   font-size: 8vh;
-
 }
 
 #pain { 
   padding: 15px;
   position: absolute;
-  top: 35%;
+  top: 14%;
   left: 40%;  
   font-size: 8vh;
   
@@ -381,7 +362,7 @@ a
 {
   
   position: absolute;
-  top: 57%;
+  top: 25%;
   left: 40%;  
   font-size: 8vh;
 
@@ -391,15 +372,15 @@ a
  {
  
   position: absolute;
-  top: 64%;
+  top: 29%;
   left: 40%;  
   font-size: 8vh;
 }
 
 #one 
 {
-  min-width: 95px;
-  min-height: 95px;
+  min-width: 100%;
+  min-height:100%;
   position: absolute;
   float: left;
   top: 60%;
