@@ -8,7 +8,7 @@
 table
 {
  border:5px solid rgb(209, 115, 221);
- box-shadow: 3px 3px 6px 10px black;
+ box-shadow: 3px 3px 2px 2px black;
 }
 
 th
@@ -36,7 +36,7 @@ h3
  padding: 5px;
  margin:0px 5px;
  vertical-align: top;
- text-shadow: 5px -2px 3px black;
+ text-shadow: 3px -2px 3px black;
 }
 
 h3 img
@@ -44,12 +44,17 @@ h3 img
  margin:0px 5px;
  padding:5px;
  align-items: center;
+ box-shadow: 2px 2px 1px 1px;
 }
-@media (max-width:750px)
+@media (max-width:700px)
 {
- table, td button, th
+ table, td, button, th
  {
-  font-size: 2vh;
+  font-size: 1.7vh;
  }
-
+ h3 
+ {
+   font-size:4vh;
+   
+ }
 }

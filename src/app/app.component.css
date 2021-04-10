@@ -22,7 +22,7 @@ body
   padding:0px;  
   font-weight: 900;
   position:absolute;
-  top:0;
+  top:-10px;
   font-size:8vh;
   color:rgb(166, 9, 168);
   transform: translateX(-2%);
@@ -90,12 +90,7 @@ body
 
  @media (max-width:700px)
  {
- 
-
-   nav
-   {
-     max-width:100%;
-   };
+   
   .navbar
   {
    background-color: rgba(27, 27, 27, 0.8);
@@ -109,20 +104,22 @@ body
   {
    border-bottom:none;   
   }  
+.navbar-brand h2 
+{
+  font-size: 6vh;
+  position:absolute;
+  top:5px;
 
+}
   .navbar-brand h4 
   {
     max-width: 100%;
     position: relative;
-    top: 12px;
+    top: 17px;
     margin-left: 20px;
     font-size: 3.5vh;    
   }
-   .navbar-brand h2 
-   {     
-     font-size: 6vh; 
-
-   }
+   
  
  }
 
